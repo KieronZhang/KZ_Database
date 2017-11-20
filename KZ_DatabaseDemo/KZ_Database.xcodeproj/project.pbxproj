@@ -15,13 +15,27 @@
 		AE37001E1FBEEB5000403658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE37001C1FBEEB5000403658 /* LaunchScreen.storyboard */; };
 		AE3700211FBEEB5000403658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3700201FBEEB5000403658 /* main.m */; };
 		AE3700291FBEEBAA00403658 /* PragmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3700281FBEEBAA00403658 /* PragmaViewController.m */; };
-		AEDC10A21FC1DFE500752728 /* KZ_DatabaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC10A11FC1DFE500752728 /* KZ_DatabaseFramework.framework */; };
+		AEA5EBE51FC2A945003D7BD1 /* KZ_DatabaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEDC108C1FC1DEF600752728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		27D5CFC880A3D4875B1C8233 /* Pods_KZ_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D22D8C73FBE3FFE207455F /* Pods-KZ_Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database/Pods-KZ_Database.debug.xcconfig"; sourceTree = "<group>"; };
 		53D4F9FD87329DBA3860CFC7 /* Pods-KZ_Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database/Pods-KZ_Database.release.xcconfig"; sourceTree = "<group>"; };
+		96E0BEC732AA2A46A2AFC6A6 /* Pods-KZ_DatabaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseFramework/Pods-KZ_DatabaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		AE37000E1FBEEB5000403658 /* KZ_Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Database.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3700111FBEEB5000403658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE3700121FBEEB5000403658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,7 +48,9 @@
 		AE3700201FBEEB5000403658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE3700271FBEEBAA00403658 /* PragmaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmaViewController.h; sourceTree = "<group>"; };
 		AE3700281FBEEBAA00403658 /* PragmaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PragmaViewController.m; sourceTree = "<group>"; };
-		AEDC10A11FC1DFE500752728 /* KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseFramework.framework; sourceTree = "<group>"; };
+		AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseFramework.framework; sourceTree = "<group>"; };
+		BC8A75D293B78AC12B7E5CB4 /* Pods_KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97578BF4BF4F1717CBEF5E /* Pods-KZ_DatabaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseFramework/Pods-KZ_DatabaseFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03CA3EE5BC8913B1110F42AA /* Pods_KZ_Database.framework in Frameworks */,
-				AEDC10A21FC1DFE500752728 /* KZ_DatabaseFramework.framework in Frameworks */,
+				AEA5EBE51FC2A945003D7BD1 /* KZ_DatabaseFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +93,7 @@
 				AE3700151FBEEB5000403658 /* ViewController.m */,
 				AE3700271FBEEBAA00403658 /* PragmaViewController.h */,
 				AE3700281FBEEBAA00403658 /* PragmaViewController.m */,
-				AE37002A1FBEEBCA00403658 /* Database */,
+				AEA5EBE31FC2A945003D7BD1 /* Database */,
 				AE3700171FBEEB5000403658 /* Main.storyboard */,
 				AE37001A1FBEEB5000403658 /* Assets.xcassets */,
 				AE37001C1FBEEB5000403658 /* LaunchScreen.storyboard */,
@@ -87,10 +103,10 @@
 			path = KZ_Database;
 			sourceTree = "<group>";
 		};
-		AE37002A1FBEEBCA00403658 /* Database */ = {
+		AEA5EBE31FC2A945003D7BD1 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEDC10A11FC1DFE500752728 /* KZ_DatabaseFramework.framework */,
+				AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -100,6 +116,8 @@
 			children = (
 				36D22D8C73FBE3FFE207455F /* Pods-KZ_Database.debug.xcconfig */,
 				53D4F9FD87329DBA3860CFC7 /* Pods-KZ_Database.release.xcconfig */,
+				96E0BEC732AA2A46A2AFC6A6 /* Pods-KZ_DatabaseFramework.debug.xcconfig */,
+				CB97578BF4BF4F1717CBEF5E /* Pods-KZ_DatabaseFramework.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -108,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				27D5CFC880A3D4875B1C8233 /* Pods_KZ_Database.framework */,
+				BC8A75D293B78AC12B7E5CB4 /* Pods_KZ_DatabaseFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +144,7 @@
 				AE37000C1FBEEB5000403658 /* Resources */,
 				5A6434F26BC9FA6A02B07477 /* [CP] Embed Pods Frameworks */,
 				0D816F9F63B81CFF78B7637A /* [CP] Copy Pods Resources */,
+				AEDC108C1FC1DEF600752728 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
