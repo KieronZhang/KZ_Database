@@ -15,7 +15,7 @@
 		AE37001E1FBEEB5000403658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE37001C1FBEEB5000403658 /* LaunchScreen.storyboard */; };
 		AE3700211FBEEB5000403658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3700201FBEEB5000403658 /* main.m */; };
 		AE3700291FBEEBAA00403658 /* PragmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3700281FBEEBAA00403658 /* PragmaViewController.m */; };
-		AEA5EBE51FC2A945003D7BD1 /* KZ_DatabaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */; };
+		AE9A25F21FC5E9B000668BA7 /* KZ_DatabaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25F11FC5E9B000668BA7 /* KZ_DatabaseFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,7 +48,7 @@
 		AE3700201FBEEB5000403658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE3700271FBEEBAA00403658 /* PragmaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmaViewController.h; sourceTree = "<group>"; };
 		AE3700281FBEEBAA00403658 /* PragmaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PragmaViewController.m; sourceTree = "<group>"; };
-		AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseFramework.framework; sourceTree = "<group>"; };
+		AE9A25F11FC5E9B000668BA7 /* KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_DatabaseFramework.framework; sourceTree = "<group>"; };
 		BC8A75D293B78AC12B7E5CB4 /* Pods_KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB97578BF4BF4F1717CBEF5E /* Pods-KZ_DatabaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseFramework/Pods-KZ_DatabaseFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03CA3EE5BC8913B1110F42AA /* Pods_KZ_Database.framework in Frameworks */,
-				AEA5EBE51FC2A945003D7BD1 /* KZ_DatabaseFramework.framework in Frameworks */,
+				AE9A25F21FC5E9B000668BA7 /* KZ_DatabaseFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 		AEA5EBE31FC2A945003D7BD1 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBE41FC2A945003D7BD1 /* KZ_DatabaseFramework.framework */,
+				AE9A25F11FC5E9B000668BA7 /* KZ_DatabaseFramework.framework */,
 			);
 			path = Database;
 			sourceTree = "<group>";
