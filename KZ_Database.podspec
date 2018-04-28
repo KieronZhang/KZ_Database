@@ -10,9 +10,10 @@ Pod::Spec.new do |s|
 
     s.source = {:git => 'https://github.com/KieronZhang/KZ_Database.git', :tag => s.version, :submodules => true}
     s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-    s.frameworks = 'Foundation'
-    s.library = 'sqlite3'
     s.requires_arc = true
+    s.library = 'sqlite3'
+
+    s.frameworks = 'Foundation'
 
     s.ios.deployment_target = '8.0'
     s.osx.deployment_target = '10.10'
