@@ -1,16 +1,16 @@
 PODS:
-  - KZ_JSON (0.1.2)
+  - KZ_JSON (0.1.3)
 
 DEPENDENCIES:
   - KZ_JSON
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - KZ_JSON
 
 SPEC CHECKSUMS:
-  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
+  KZ_JSON: 4e4766cb638fb95fd0b9aa95de506acc6d5735eb
 
 PODFILE CHECKSUM: 8ef58b8fa4ec95d4f9388d86f4645f74d91fdd60
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

@@ -7,31 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D2E6450987555D7C1139829 /* Pods_KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FF0AE8CDBCAC25260F31F1 /* Pods_KZ_Database_iOS.framework */; };
-		8A35B5B791E1292C97901622 /* Pods_KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D96421EB84D8E221CD17A6F /* Pods_KZ_Database_macOS.framework */; };
+		0903657061A533D1BE135235 /* Pods_KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8A95A9DE42931A5B9F9322 /* Pods_KZ_Database_macOS.framework */; };
+		72C16355725F3507FDC76110 /* Pods_KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B0D6ABDA0737CC1D769726 /* Pods_KZ_Database_iOS.framework */; };
 		AEC28FAD208DBE3300198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FAC208DBE3300198A0E /* AppDelegate.m */; };
 		AEC28FB0208DBE3300198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FAF208DBE3300198A0E /* ViewController.m */; };
 		AEC28FB3208DBE3300198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FB1208DBE3300198A0E /* Main.storyboard */; };
 		AEC28FB5208DBE3400198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FB4208DBE3400198A0E /* Assets.xcassets */; };
 		AEC28FB8208DBE3400198A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FB6208DBE3400198A0E /* LaunchScreen.storyboard */; };
 		AEC28FBB208DBE3400198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FBA208DBE3400198A0E /* main.m */; };
-		AEC28FC1208DBE8C00198A0E /* KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC28FC0208DBE8C00198A0E /* KZ_Database_iOS.framework */; };
 		AEC28FC4208DBF0100198A0E /* PragmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FC3208DBF0100198A0E /* PragmaViewController.m */; };
 		AEC28FCD208DBF7100198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FCC208DBF7100198A0E /* AppDelegate.m */; };
 		AEC28FD0208DBF7100198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FCF208DBF7100198A0E /* ViewController.m */; };
 		AEC28FD2208DBF7200198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FD1208DBF7200198A0E /* Assets.xcassets */; };
 		AEC28FD5208DBF7200198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FD3208DBF7200198A0E /* Main.storyboard */; };
 		AEC28FD8208DBF7200198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FD7208DBF7200198A0E /* main.m */; };
-		AEC28FDF208DBFE400198A0E /* KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC28FDE208DBFE300198A0E /* KZ_Database_macOS.framework */; };
+		AEF94D7A2175F7EF0063EE69 /* KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */; };
+		AEF94D7C2175F7F60063EE69 /* KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15583375A54DA810DFFB3ABD /* Pods-KZ_Database_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_iOS/Pods-KZ_Database_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		27D5CFC880A3D4875B1C8233 /* Pods_KZ_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FF0AE8CDBCAC25260F31F1 /* Pods_KZ_Database_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B0D6ABDA0737CC1D769726 /* Pods_KZ_Database_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0D2302035C4479F80ECDCE /* Pods-KZ_Database_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_macOS/Pods-KZ_Database_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		6D96421EB84D8E221CD17A6F /* Pods_KZ_Database_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96E0BEC732AA2A46A2AFC6A6 /* Pods-KZ_DatabaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseFramework/Pods-KZ_DatabaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8A95A9DE42931A5B9F9322 /* Pods_KZ_Database_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Database_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC28FA9208DBE3300198A0E /* KZ_Database_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Database_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC28FAB208DBE3300198A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC28FAC208DBE3300198A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 		AEC28FB7208DBE3400198A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC28FB9208DBE3400198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC28FBA208DBE3400198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC28FC0208DBE8C00198A0E /* KZ_Database_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_iOS.framework; sourceTree = "<group>"; };
 		AEC28FC2208DBF0100198A0E /* PragmaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PragmaViewController.h; sourceTree = "<group>"; };
 		AEC28FC3208DBF0100198A0E /* PragmaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PragmaViewController.m; sourceTree = "<group>"; };
 		AEC28FC9208DBF7100198A0E /* KZ_Database_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Database_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,10 +52,9 @@
 		AEC28FD6208DBF7200198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC28FD7208DBF7200198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEC28FD9208DBF7200198A0E /* KZ_Database_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_Database_macOS.entitlements; sourceTree = "<group>"; };
-		AEC28FDE208DBFE300198A0E /* KZ_Database_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_macOS.framework; sourceTree = "<group>"; };
+		AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_iOS.framework; sourceTree = "<group>"; };
+		AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_macOS.framework; sourceTree = "<group>"; };
 		B0F497C8E4B173E5A60FD2C2 /* Pods-KZ_Database_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_macOS/Pods-KZ_Database_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BC8A75D293B78AC12B7E5CB4 /* Pods_KZ_DatabaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_DatabaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB97578BF4BF4F1717CBEF5E /* Pods-KZ_DatabaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_DatabaseFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_DatabaseFramework/Pods-KZ_DatabaseFramework.release.xcconfig"; sourceTree = "<group>"; };
 		DD00F8C255F0F9B55611112B /* Pods-KZ_Database_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_iOS/Pods-KZ_Database_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC28FC1208DBE8C00198A0E /* KZ_Database_iOS.framework in Frameworks */,
-				1D2E6450987555D7C1139829 /* Pods_KZ_Database_iOS.framework in Frameworks */,
+				AEF94D7A2175F7EF0063EE69 /* KZ_Database_iOS.framework in Frameworks */,
+				72C16355725F3507FDC76110 /* Pods_KZ_Database_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC28FDF208DBFE400198A0E /* KZ_Database_macOS.framework in Frameworks */,
-				8A35B5B791E1292C97901622 /* Pods_KZ_Database_macOS.framework in Frameworks */,
+				AEF94D7C2175F7F60063EE69 /* KZ_Database_macOS.framework in Frameworks */,
+				0903657061A533D1BE135235 /* Pods_KZ_Database_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +87,7 @@
 				AEC28FCA208DBF7100198A0E /* KZ_Database_macOS */,
 				AE37000F1FBEEB5000403658 /* Products */,
 				CE08E0904263FCE93B00A07E /* Pods */,
-				F193B3F2B895C153048B600B /* Frameworks */,
+				BB6AD8AB2F35C3D64078991A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,7 +122,7 @@
 		AEC28FBF208DBE8C00198A0E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEC28FC0208DBE8C00198A0E /* KZ_Database_iOS.framework */,
+				AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -151,33 +147,29 @@
 		AEC28FDD208DBFE300198A0E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEC28FDE208DBFE300198A0E /* KZ_Database_macOS.framework */,
+				AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		BB6AD8AB2F35C3D64078991A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B0D6ABDA0737CC1D769726 /* Pods_KZ_Database_iOS.framework */,
+				5F8A95A9DE42931A5B9F9322 /* Pods_KZ_Database_macOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CE08E0904263FCE93B00A07E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				96E0BEC732AA2A46A2AFC6A6 /* Pods-KZ_DatabaseFramework.debug.xcconfig */,
-				CB97578BF4BF4F1717CBEF5E /* Pods-KZ_DatabaseFramework.release.xcconfig */,
 				15583375A54DA810DFFB3ABD /* Pods-KZ_Database_iOS.debug.xcconfig */,
 				DD00F8C255F0F9B55611112B /* Pods-KZ_Database_iOS.release.xcconfig */,
 				B0F497C8E4B173E5A60FD2C2 /* Pods-KZ_Database_macOS.debug.xcconfig */,
 				4C0D2302035C4479F80ECDCE /* Pods-KZ_Database_macOS.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F193B3F2B895C153048B600B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				27D5CFC880A3D4875B1C8233 /* Pods_KZ_Database.framework */,
-				BC8A75D293B78AC12B7E5CB4 /* Pods_KZ_DatabaseFramework.framework */,
-				49FF0AE8CDBCAC25260F31F1 /* Pods_KZ_Database_iOS.framework */,
-				6D96421EB84D8E221CD17A6F /* Pods_KZ_Database_macOS.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,7 +490,7 @@
 				INFOPLIST_FILE = KZ_Database_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Database-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Database;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -522,7 +514,7 @@
 				INFOPLIST_FILE = KZ_Database_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Database-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Database;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -547,8 +539,8 @@
 				);
 				INFOPLIST_FILE = KZ_Database_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Database-macOS";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Database;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -573,8 +565,8 @@
 				);
 				INFOPLIST_FILE = KZ_Database_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Database-macOS";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Database;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
