@@ -21,8 +21,8 @@
 		AEC28FD2208DBF7200198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FD1208DBF7200198A0E /* Assets.xcassets */; };
 		AEC28FD5208DBF7200198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC28FD3208DBF7200198A0E /* Main.storyboard */; };
 		AEC28FD8208DBF7200198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC28FD7208DBF7200198A0E /* main.m */; };
-		AEF94D7A2175F7EF0063EE69 /* KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */; };
-		AEF94D7C2175F7F60063EE69 /* KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */; };
+		AEF94D9E217714310063EE69 /* KZ_Database_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D9D217714310063EE69 /* KZ_Database_iOS.framework */; };
+		AEF94DA0217714340063EE69 /* KZ_Database_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D9F217714340063EE69 /* KZ_Database_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +52,8 @@
 		AEC28FD6208DBF7200198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC28FD7208DBF7200198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEC28FD9208DBF7200198A0E /* KZ_Database_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_Database_macOS.entitlements; sourceTree = "<group>"; };
-		AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_iOS.framework; sourceTree = "<group>"; };
-		AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_macOS.framework; sourceTree = "<group>"; };
+		AEF94D9D217714310063EE69 /* KZ_Database_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_iOS.framework; sourceTree = "<group>"; };
+		AEF94D9F217714340063EE69 /* KZ_Database_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Database_macOS.framework; sourceTree = "<group>"; };
 		B0F497C8E4B173E5A60FD2C2 /* Pods-KZ_Database_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_macOS/Pods-KZ_Database_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DD00F8C255F0F9B55611112B /* Pods-KZ_Database_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Database_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Database_iOS/Pods-KZ_Database_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D7A2175F7EF0063EE69 /* KZ_Database_iOS.framework in Frameworks */,
+				AEF94D9E217714310063EE69 /* KZ_Database_iOS.framework in Frameworks */,
 				72C16355725F3507FDC76110 /* Pods_KZ_Database_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D7C2175F7F60063EE69 /* KZ_Database_macOS.framework in Frameworks */,
+				AEF94DA0217714340063EE69 /* KZ_Database_macOS.framework in Frameworks */,
 				0903657061A533D1BE135235 /* Pods_KZ_Database_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,7 +122,7 @@
 		AEC28FBF208DBE8C00198A0E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D792175F7EF0063EE69 /* KZ_Database_iOS.framework */,
+				AEF94D9D217714310063EE69 /* KZ_Database_iOS.framework */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 		AEC28FDD208DBFE300198A0E /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D7B2175F7F60063EE69 /* KZ_Database_macOS.framework */,
+				AEF94D9F217714340063EE69 /* KZ_Database_macOS.framework */,
 			);
 			path = Database;
 			sourceTree = "<group>";
