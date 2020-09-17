@@ -62,23 +62,25 @@
 		2A6F211C8937F4EABEBE6E9F5320A1EA /* Pods_KZ_Database_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_Database_macOS.framework; path = "Pods-KZ_Database_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FECFF1700A77D1F98FED92EECFCFDBF /* Pods-KZ_Database_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_Database_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		358F50CB66C5BB39EE75A81378078F07 /* KZ_JSON-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "KZ_JSON-macOS.release.xcconfig"; path = "../KZ_JSON-macOS/KZ_JSON-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		3A7FC9A18755A431264E9CCA7C946273 /* Pods-KZ_Database_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_Database_macOS-umbrella.h"; sourceTree = "<group>"; };
-		4B1F5DDABAA1B0A6B530068A538EC879 /* KZ_JSON-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "KZ_JSON-macOS.xcconfig"; path = "../KZ_JSON-macOS/KZ_JSON-macOS.xcconfig"; sourceTree = "<group>"; };
 		4CE86E9CEDAF47B468BBAC87D61E1433 /* Pods_KZ_Database_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_Database_iOS.framework; path = "Pods-KZ_Database_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC526CED831CCF3DC5F5B7D65BA35D9 /* Pods-KZ_Database_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_Database_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56EF0CF3E496AED32EE953DD02467293 /* KZ_JSON-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "KZ_JSON-macOS.debug.xcconfig"; path = "../KZ_JSON-macOS/KZ_JSON-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		604760D4AD717CB0809AD7FCFD8B04CB /* Pods-KZ_Database_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_Database_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		6BDD590DBDA6D3BC82D62C16B73FF8D9 /* Pods-KZ_Database_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_Database_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6F22176C954092D1FBCACE1F04027C9E /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
 		7491CD1138BEE4908347DBE622E7FB11 /* Pods-KZ_Database_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_Database_iOS-umbrella.h"; sourceTree = "<group>"; };
 		972D34161F09974DEC58B67B0855EDD4 /* Pods-KZ_Database_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_Database_macOS-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A120C71EB46BE03FA71F12B532F08C42 /* KZ_JSON_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_macOS.framework; path = KZ_JSON/KZ_JSON_macOS.framework; sourceTree = "<group>"; };
+		B4AAEC148D0842B6DBA0E08FCB4A884F /* KZ_JSON-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KZ_JSON-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		B9BB3DA5AC6E2C8D101F7CB77A9B4164 /* Pods-KZ_Database_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_Database_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		BAB2314E2674658B3BC948AC9B283668 /* KZ_JSON-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KZ_JSON-iOS.xcconfig"; sourceTree = "<group>"; };
 		CA1F6D4ED114C1A8663BEA16203F2556 /* Pods-KZ_Database_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_Database_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DFA4C7C6FD21B7E2161803701D1267F4 /* Pods-KZ_Database_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_Database_iOS-dummy.m"; sourceTree = "<group>"; };
+		EDA73AC2F23DB0BA129A1F57E71AAE2D /* KZ_JSON_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_macOS.framework; path = KZ_JSON/KZ_JSON_macOS.framework; sourceTree = "<group>"; };
 		F671ACEFDD8C327A14A4E8A13727E3D0 /* Pods-KZ_Database_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_Database_iOS.modulemap"; sourceTree = "<group>"; };
-		FD840BED4BEA5C5F8D42E63070956EC5 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
+		F922B2D76D604DF4F39C6794C4C99916 /* KZ_JSON-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KZ_JSON-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117886716B0F53FFA0CFAF51BF9CEFDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F22176C954092D1FBCACE1F04027C9E /* KZ_JSON_iOS.framework */,
+				EDA73AC2F23DB0BA129A1F57E71AAE2D /* KZ_JSON_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F56EA3ABF4D2C0AB073A091F8793F56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F922B2D76D604DF4F39C6794C4C99916 /* KZ_JSON-iOS.debug.xcconfig */,
+				B4AAEC148D0842B6DBA0E08FCB4A884F /* KZ_JSON-iOS.release.xcconfig */,
+				56EF0CF3E496AED32EE953DD02467293 /* KZ_JSON-macOS.debug.xcconfig */,
+				358F50CB66C5BB39EE75A81378078F07 /* KZ_JSON-macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_JSON-iOS";
+			sourceTree = "<group>";
+		};
 		3F8A24B87B4D62BA127BA8D3FE734D3E /* OS X */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +157,14 @@
 			path = "Target Support Files/Pods-KZ_Database_macOS";
 			sourceTree = "<group>";
 		};
-		67A9A4D26E38BBD5711C62D476DD3BC2 /* Frameworks */ = {
+		6EA5B01C3E6CCD105793EA8FD0EC514A /* KZ_JSON */ = {
 			isa = PBXGroup;
 			children = (
-				FD840BED4BEA5C5F8D42E63070956EC5 /* KZ_JSON_iOS.framework */,
-				A120C71EB46BE03FA71F12B532F08C42 /* KZ_JSON_macOS.framework */,
+				117886716B0F53FFA0CFAF51BF9CEFDA /* Frameworks */,
+				2F56EA3ABF4D2C0AB073A091F8793F56 /* Support Files */,
 			);
-			name = Frameworks;
+			name = KZ_JSON;
+			path = KZ_JSON;
 			sourceTree = "<group>";
 		};
 		919A1C2BDC06FEEFA1DC9AF78AE0532D /* Products */ = {
@@ -172,7 +196,7 @@
 		A701FF6C6057A7FCCED3B6B23605B18D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2DE8672BEDA9BA59EAFA360D343C501 /* KZ_JSON */,
+				6EA5B01C3E6CCD105793EA8FD0EC514A /* KZ_JSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -202,26 +226,6 @@
 				919A1C2BDC06FEEFA1DC9AF78AE0532D /* Products */,
 				A20C3B62D122F4100C0562A578D148DA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D46B6E1CE0E74E8FE679CCFD1EAAA9AD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAB2314E2674658B3BC948AC9B283668 /* KZ_JSON-iOS.xcconfig */,
-				4B1F5DDABAA1B0A6B530068A538EC879 /* KZ_JSON-macOS.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZ_JSON-iOS";
-			sourceTree = "<group>";
-		};
-		E2DE8672BEDA9BA59EAFA360D343C501 /* KZ_JSON */ = {
-			isa = PBXGroup;
-			children = (
-				67A9A4D26E38BBD5711C62D476DD3BC2 /* Frameworks */,
-				D46B6E1CE0E74E8FE679CCFD1EAAA9AD /* Support Files */,
-			);
-			name = KZ_JSON;
-			path = KZ_JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +303,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 919A1C2BDC06FEEFA1DC9AF78AE0532D /* Products */;
@@ -563,30 +568,33 @@
 			};
 			name = Release;
 		};
-		518585FF896D00F2DA437CA5AB40953E /* Release */ = {
+		53FCEB2E0EFB9476B796DCFB2F85AFDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAB2314E2674658B3BC948AC9B283668 /* KZ_JSON-iOS.xcconfig */;
+			baseConfigurationReference = 358F50CB66C5BB39EE75A81378078F07 /* KZ_JSON-macOS.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		86F48F2ADC2A5EF27F914C85FC6A9604 /* Debug */ = {
+		97E2BB49727BFEECE31EEBF55576067B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAB2314E2674658B3BC948AC9B283668 /* KZ_JSON-iOS.xcconfig */;
+			baseConfigurationReference = 56EF0CF3E496AED32EE953DD02467293 /* KZ_JSON-macOS.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -624,35 +632,32 @@
 			};
 			name = Release;
 		};
-		F5F0F0634775806F07E085324997645F /* Release */ = {
+		AED2AB4BFF496429F9CBEE355C7BAF90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B1F5DDABAA1B0A6B530068A538EC879 /* KZ_JSON-macOS.xcconfig */;
+			baseConfigurationReference = F922B2D76D604DF4F39C6794C4C99916 /* KZ_JSON-iOS.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		F957566D4BAECC8E9226356CE36C1E4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B1F5DDABAA1B0A6B530068A538EC879 /* KZ_JSON-macOS.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				SDKROOT = macosx;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		BBEF780D665F617F3EBFCFFFB80BE4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AAEC148D0842B6DBA0E08FCB4A884F /* KZ_JSON-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		FA61679048EF7482E22D57AF9B4B9D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -693,8 +698,8 @@
 		1BD17326840DC5D5A567164E02F06D06 /* Build configuration list for PBXAggregateTarget "KZ_JSON-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F957566D4BAECC8E9226356CE36C1E4E /* Debug */,
-				F5F0F0634775806F07E085324997645F /* Release */,
+				97E2BB49727BFEECE31EEBF55576067B /* Debug */,
+				53FCEB2E0EFB9476B796DCFB2F85AFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +725,8 @@
 		68E8A3F88E8454BBC57D19264A38DE1F /* Build configuration list for PBXAggregateTarget "KZ_JSON-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86F48F2ADC2A5EF27F914C85FC6A9604 /* Debug */,
-				518585FF896D00F2DA437CA5AB40953E /* Release */,
+				AED2AB4BFF496429F9CBEE355C7BAF90 /* Debug */,
+				BBEF780D665F617F3EBFCFFFB80BE4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
